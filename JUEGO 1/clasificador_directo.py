@@ -22,7 +22,7 @@ sampling_rate = BoardShim.get_sampling_rate(board_id)
 package_num = BoardShim.get_package_num_channel(board_id)
 time_channel = BoardShim.get_timestamp_channel(board_id)
 
-modelo_final = pickle.load(open('BEST/modelo_XGB.pkl','rb'))
+modelo_final = pickle.load(open('MEJOR MODELO/modelo_XGB.pkl','rb'))
 
 hora_actual = datetime.now().strftime("%H-%M-%S")
 csv_file = f'DATOS DIRECTO/datos_{hora_actual}.csv'
