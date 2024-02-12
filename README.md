@@ -39,4 +39,5 @@ En este caso se encuentran los códigos para la ejecución del serious game en d
 ## JUEGO 2
 Por último se ha desarrollado un segundo juego que consiste en hacer el gesto que se ha generado de manera aleatoria, este juego funciona de la misma forma que el anterior, mediante TCP/IP, y hace uso de una interfaz gráfica muy sencilla para la visualización. 
 
+## LINKS
 Además se puede encontrar una ejecución tanto del [**mejor modelo**](https://youtu.be/bM__-uxg694) y de otros de los modelos entrenamientos relevantes para el proyecto, [**ejecucines descartadas**](https://youtu.be/rQ9JOnSBLYA)
