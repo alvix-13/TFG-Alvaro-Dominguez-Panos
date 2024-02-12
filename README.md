@@ -36,4 +36,7 @@ En este directorio se encuentra la aplicación demo, un serious game sencillo pa
 ## JUEGO 1
 En este caso se encuentran los códigos para la ejecución del serious game en dos ordenadores distintos, uno para hacer uso del clasificador y otro para hacer uso del juego, así poder repartir los recursos necesarios para la ejecución, principalmente para otros juego que requieran mejores recursos. Esto es posible gracias a una conexión con un socket TCP/IP. En este caso el [**cliente.py**](JUEGO%201/cliente.py), ejecuta el clasificador y envía un mensaje con la nueva predicción. Por otro lado [**server.py**](JUEGO%201/server.py), el servidor se encarga de recibir el nuevo gestos e interactuar con este en el juego.
 
+## JUEGO 2
+Por último se ha desarrollado un segundo juego que consiste en hacer el gesto que se ha generado de manera aleatoria, este juego funciona de la misma forma que el anterior, mediante TCP/IP, y hace uso de una interfaz gráfica muy sencilla para la visualización. 
+
 Además se puede encontrar una ejecución tanto del [**mejor modelo**](https://youtu.be/bM__-uxg694) y de otros de los modelos entrenamientos relevantes para el proyecto, [**ejecucines descartadas**](https://youtu.be/rQ9JOnSBLYA)
