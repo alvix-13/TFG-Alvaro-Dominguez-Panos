@@ -1,4 +1,4 @@
-import adquision
+import adquisicion
 from time import sleep
 
 def todos_experimentos(csv_file, label, win_size, current=False):
@@ -11,7 +11,7 @@ def todos_experimentos(csv_file, label, win_size, current=False):
          "supinacion")
 
     csv_path = f' {csv_file}' if current else f' {csv_file}'
-    adquision.ejecutar_experimento(csv_path, label, win_size, current)
+    adquisicion.ejecutar_experimento(csv_path, label, win_size, current)
 
 def fin():
     print("======================================")
